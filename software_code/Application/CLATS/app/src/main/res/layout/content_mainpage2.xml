@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_mainpage2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#D3D3D3"
+    tools:context="com.example.chaitanyareddy.clats.Mainpage2"
+    tools:showIn="@layout/app_bar_mainpage2">
+
+
+
+    <RelativeLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text4"
+            android:text = "Present location :"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text5"
+            android:text = "Previous loactions :"
+            android:layout_below="@+id/Time"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_toStartOf="@+id/Time" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Present_Location"
+            android:layout_below="@+id/text4"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Time"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/Present_Location"
+            android:layout_alignBottom="@+id/Present_Location"
+            android:layout_toEndOf="@+id/PasswordInput2" />
+
+        <TextView
+            android:id="@+id/Past_location_1"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text5"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Past_location_2"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Past_time_1"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Past_location_3"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Past_time_2"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/Past_location_4"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Past_time_3"
+            android:textSize="20dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Past_time_1"
+            android:textSize="20dp"
+            android:layout_below="@+id/text5"
+            android:layout_toEndOf="@+id/Past_location_1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Past_time_2"
+            android:textSize="20dp"
+            android:layout_below="@+id/Past_time_1"
+            android:layout_toEndOf="@+id/Past_location_2" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Past_time_3"
+            android:textSize="20dp"
+            android:layout_below="@+id/Past_time_2"
+            android:layout_toEndOf="@+id/Past_location_3" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Past_time_4"
+            android:textSize="20dp"
+            android:layout_alignBaseline="@+id/Past_location_4"
+            android:layout_alignBottom="@+id/Past_location_4"
+            android:layout_toEndOf="@+id/Past_location_3" />
+
+        <Button
+            android:text="Refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button"
+            android:textColor="#000000"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="76dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickCheckBox"
+            android:text="I'm riding/lending the cycle"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/Past_location_4"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:id="@+id/PasswordInput2"
+            android:layout_width="170dp"
+            android:layout_height="38dp"
+            android:background="?attr/colorControlHighlight"
+            android:hint="Password"
+            android:textColor="#000000"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/PassCheck"
+            android:text ="Continue"
+            android:visibility="invisible"
+            android:layout_below="@+id/PasswordInput2"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="458dp"
+        android:layout_marginStart="172dp"
+        android:inputType="textPersonName"
+        android:text="Time :"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:visibility="invisible"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

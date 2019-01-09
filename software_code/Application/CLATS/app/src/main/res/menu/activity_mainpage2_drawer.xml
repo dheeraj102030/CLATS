@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id ="@+id/nav_accDet"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Account Details"/>
+    <item android:id ="@+id/nav_help"
+        android:icon="@mipmap/ic_help_black_24dp"
+        android:title="Help"/>
+
+
+</menu>

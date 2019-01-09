@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#AEE8E6"
+    tools:context="com.example.chaitanyareddy.clats.SignUp"
+    android:weightSum="1">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Cycle details"
+        android:paddingLeft="3dp"
+        android:id="@+id/FCycleDeteils"
+        android:background="?attr/colorControlHighlight"
+        android:textColor="#000000"
+        android:fadingEdge="horizontal|vertical"
+        android:layout_below="@+id/FCycleNo"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="textPersonName|textPassword"
+        android:hint="Enter the password"
+        android:id="@+id/FPass1"
+        android:paddingLeft="3dp"
+        android:textColor="#000000"
+        android:background="?attr/colorControlHighlight"
+        android:layout_below="@+id/FCycleDeteils"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="textPersonName|textPassword"
+        android:hint="Re-enter the password"
+        android:id="@+id/FPass2"
+        android:paddingLeft="3dp"
+        android:textColor="#000000"
+        android:background="?attr/colorControlHighlight"
+        android:layout_below="@+id/FPass1"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Phone number"
+        android:id="@+id/FPhoneNo"
+        android:textColor="#000000"
+        android:background="?attr/colorControlHighlight"
+
+        android:layout_alignBottom="@+id/FRollNo"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Cycle EPC"
+        android:paddingLeft="3dp"
+        android:id="@+id/FCycleNo"
+        android:textColor="#000000"
+        android:background="?attr/colorControlHighlight"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/FRollNo"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="130dp"
+        android:layout_height="35dp"
+        android:inputType="textPersonName"
+        android:hint="Roll number"
+        android:paddingLeft="3dp"
+        android:id="@+id/FRollNo"
+        android:textColor="#000000"
+        android:background="?attr/colorControlHighlight"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/FName"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:inputType="textPersonName"
+    android:hint="Full name"
+    android:paddingLeft="3dp"
+    android:id="@+id/FName"
+    android:textColor="#000000"
+    android:background="?attr/colorControlHighlight"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:background="#ffffff"
+        android:text="Sign up!"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/signup"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/FPass2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Create account here"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:paddingTop="3dp"
+
+        android:id="@+id/textView8"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/cycle"
+        android:id="@+id/imageView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

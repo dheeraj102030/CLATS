@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">CLATS</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_mainpage2">CLATS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="helptext">ftgwbhasincmk</string>
+    <string name="cycle_number">Cycle number</string>
+    <string name="cycle_colour_and_company">Cycle colour and company</string>
+    <string name="cycle_description_limit_15_words">Cycle description(limit 15 words)</string>
+    <string name="done">Done</string>
+    <string name="create_password">Create Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="roll_number">Roll Number</string>
+    <string name="email_id">Email ID</string>
+    <string name="next">next</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="Subtitle1">Some practices to follow while using CLATS :\n</string>
+    <string name="tips">Press the refresh button at regular intervals, to know the update.\n\n
+
+Check the "I am riding/lending the cycle" checkbox only when the cycle is being taken outside the campus.\n\n
+
+Do not reveal your cycle number or password to anybody.\n\n
+
+Do uncheck the "I am riding/lending the cycle" checkbox after your cycle is returned, or after you complete your ride.\n\n </string>
+    <string name="Subtitle2">FAQs :\n</string>
+    <string name="Qes1">1) CLATS shows that my cycle is at a certain location, but it is not there. Where is it then?</string>
+    <string name="Answ1">Ans : Search the specified location thoroughly. If still now found, you have to search the routes between the locations adjacent to your specified locations.\n\n
+</string>
+    <string name="Qes2">2) I forgot my password.</string>
+    <string name="Answ2">Ans : Please contact us. Phone number 9661677255/9959935378/8465890325.\n\n </string>
+    <string name="Qes3">3) How do I delete my account?</string>
+    <string name="Answ3">Ans : We do not give you the previliges to delete your account due to security issues. Please contact us on 9661677255/9959935378/8465890325.\n\n</string>
+    <string name="Qes4">4) I am not able to sign up for CLATS.</string>
+    <string name="Answ4">Ans : You may have typed the wrong cycle number in the cycle number section. Please type the correct EPC.\n\n   </string>
+    <string name="Qes5">5) When do I have to check the \"I\'m riding/lending the cycle\" checkbox?
+</string>
+    <string name="Answ5">Ans : Check the \"I\'m riding/lending the cycle\" checkbox only when you or anyone, whom you have lended the cycle, is taking it out of the campus. \n\n  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

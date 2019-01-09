@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_student_signup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#AEE8E6"
+    tools:context="com.example.chaitanyareddy.clats.StudentSignup">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/cycle"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Remember password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/checkBox"
+        style="@android:style/Widget.Holo.Light.CompoundButton.CheckBox"
+        android:layout_below="@+id/LogInButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PasswordInput"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <Button
+        android:text="Log In"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/LogInButton"
+        style="@android:style/Widget.Button"
+        android:layout_below="@+id/PasswordInput"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Roll number:"
+        android:layout_width="100dp"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/PasswordInput"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp"
+        android:layout_toStartOf="@+id/LogInButton" />
+
+    <Button
+        android:text="Don't have an account?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:onClick="onClickCreateAccount"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="38dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/InputRoll"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2" />
+
+    <TextView
+        android:text="Password:"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textSize="20dp"
+        android:id="@+id/textView"
+        android:layout_above="@+id/LogInButton"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

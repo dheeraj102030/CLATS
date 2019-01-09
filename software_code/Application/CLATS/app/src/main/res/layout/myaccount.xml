@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/text6"
+    android:text="Name:"
+    android:textSize="20dp"
+    android:textStyle="bold"
+    android:layout_marginTop="43dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/text6"
+        android:layout_alignBottom="@+id/text6"
+        android:layout_alignStart="@+id/cycle" />
+
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Roll Number:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="61dp"
+        android:layout_below="@+id/text6"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/text7"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/text9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cycle Description :"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/text8"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/roll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/text7"
+        android:layout_alignBottom="@+id/text7"
+        android:layout_alignStart="@+id/name" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_alignBaseline="@+id/text8"
+        android:layout_alignBottom="@+id/text8"
+        android:layout_alignStart="@+id/roll" />
+
+    <TextView
+        android:id="@+id/cycle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textStyle="normal"
+        android:textSize="20dp"
+        android:layout_marginStart="23dp"
+        android:layout_alignBaseline="@+id/text9"
+        android:layout_alignBottom="@+id/text9"
+        android:layout_toEndOf="@+id/text9" />
+
+
+</RelativeLayout>

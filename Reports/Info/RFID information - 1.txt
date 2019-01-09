@@ -1,0 +1,26 @@
+How does RFID work? A Radio-Frequency IDentification system has three parts:
+
+A scanning antenna
+A transceiver with a decoder to interpret the data
+A transponder - the RFID tag - that has been programmed with information.
+
+
+The scanning antenna puts out radio-frequency signals in a relatively short range. The RF radiation does two things:
+
+It provides a means of communicating with the transponder (the RFID tag) AND
+It provides the RFID tag with the energy to communicate (in the case of passive RFID tags).
+
+This is an absolutely key part of the technology; RFID tags do not need to contain batteries, and can therefore remain usable for very long periods of time (maybe decades).
+
+The scanning antennas can be permanently affixed to a surface; handheld antennas are also available. They can take whatever shape you need; for example, you could build them into a door frame to accept data from persons or objects passing through.
+
+When an RFID tag passes through the field of the scanning antenna, it detects the activation signal from the antenna. That "wakes up" the RFID chip, and it transmits the information on its microchip to be picked up by the scanning antenna.
+
+In addition, the RFID tag may be of one of two types. Active RFID tags have their own power source; the advantage of these tags is that the reader can be much farther away and still get the signal. Even though some of these devices are built to have up to a 10 year life span, they have limited life spans. Passive RFID tags, however, do not require batteries, and can be much smaller and have a virtually unlimited life span.
+
+RFID tags can be read in a wide variety of circumstances, where barcodes or other optically read technologies are useless.
+The tag need not be on the surface of the object (and is therefore not subject to wear)
+
+The read time is typically less than 100 milliseconds
+Large numbers of tags can be read at once rather than item by item.
+In essence, that's how RFID works. 
